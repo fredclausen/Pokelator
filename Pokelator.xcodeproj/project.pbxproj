@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D248E125083F7D00941DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D248E025083F7D00941DBC /* AppDelegate.swift */; };
+		B6D248E325083F7D00941DBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D248E225083F7D00941DBC /* ContentView.swift */; };
+		B6D248E525083F7F00941DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D248E425083F7F00941DBC /* Assets.xcassets */; };
+		B6D248E825083F7F00941DBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D248E725083F7F00941DBC /* Preview Assets.xcassets */; };
+		B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D248E925083F7F00941DBC /* Main.storyboard */; };
+		B6D248F725083F7F00941DBC /* PokelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D248F625083F7F00941DBC /* PokelatorTests.swift */; };
+		B6D2490225083F7F00941DBC /* PokelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D2490125083F7F00941DBC /* PokelatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D248F325083F7F00941DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D248D525083F7D00941DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D248DC25083F7D00941DBC;
+			remoteInfo = Pokelator;
+		};
+		B6D248FE25083F7F00941DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D248D525083F7D00941DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D248DC25083F7D00941DBC;
+			remoteInfo = Pokelator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6D248DD25083F7D00941DBC /* Pokelator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokelator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D248E025083F7D00941DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6D248E225083F7D00941DBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6D248E425083F7F00941DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D248E725083F7F00941DBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6D248EA25083F7F00941DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6D248EC25083F7F00941DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D248ED25083F7F00941DBC /* Pokelator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pokelator.entitlements; sourceTree = "<group>"; };
+		B6D248F225083F7F00941DBC /* PokelatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D248F625083F7F00941DBC /* PokelatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorTests.swift; sourceTree = "<group>"; };
+		B6D248F825083F7F00941DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D248FD25083F7F00941DBC /* PokelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D2490125083F7F00941DBC /* PokelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorUITests.swift; sourceTree = "<group>"; };
+		B6D2490325083F7F00941DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D248DA25083F7D00941DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248EF25083F7F00941DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248FA25083F7F00941DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D248D425083F7D00941DBC = {
+			isa = PBXGroup;
+			children = (
+				B6D248DF25083F7D00941DBC /* Pokelator */,
+				B6D248F525083F7F00941DBC /* PokelatorTests */,
+				B6D2490025083F7F00941DBC /* PokelatorUITests */,
+				B6D248DE25083F7D00941DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D248DE25083F7D00941DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D248DD25083F7D00941DBC /* Pokelator.app */,
+				B6D248F225083F7F00941DBC /* PokelatorTests.xctest */,
+				B6D248FD25083F7F00941DBC /* PokelatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D248DF25083F7D00941DBC /* Pokelator */ = {
+			isa = PBXGroup;
+			children = (
+				B6D248E025083F7D00941DBC /* AppDelegate.swift */,
+				B6D248E225083F7D00941DBC /* ContentView.swift */,
+				B6D248E425083F7F00941DBC /* Assets.xcassets */,
+				B6D248E925083F7F00941DBC /* Main.storyboard */,
+				B6D248EC25083F7F00941DBC /* Info.plist */,
+				B6D248ED25083F7F00941DBC /* Pokelator.entitlements */,
+				B6D248E625083F7F00941DBC /* Preview Content */,
+			);
+			path = Pokelator;
+			sourceTree = "<group>";
+		};
+		B6D248E625083F7F00941DBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6D248E725083F7F00941DBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6D248F525083F7F00941DBC /* PokelatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D248F625083F7F00941DBC /* PokelatorTests.swift */,
+				B6D248F825083F7F00941DBC /* Info.plist */,
+			);
+			path = PokelatorTests;
+			sourceTree = "<group>";
+		};
+		B6D2490025083F7F00941DBC /* PokelatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D2490125083F7F00941DBC /* PokelatorUITests.swift */,
+				B6D2490325083F7F00941DBC /* Info.plist */,
+			);
+			path = PokelatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D248DC25083F7D00941DBC /* Pokelator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D2490625083F7F00941DBC /* Build configuration list for PBXNativeTarget "Pokelator" */;
+			buildPhases = (
+				B6D248D925083F7D00941DBC /* Sources */,
+				B6D248DA25083F7D00941DBC /* Frameworks */,
+				B6D248DB25083F7D00941DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokelator;
+			productName = Pokelator;
+			productReference = B6D248DD25083F7D00941DBC /* Pokelator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D248F125083F7F00941DBC /* PokelatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D2490925083F7F00941DBC /* Build configuration list for PBXNativeTarget "PokelatorTests" */;
+			buildPhases = (
+				B6D248EE25083F7F00941DBC /* Sources */,
+				B6D248EF25083F7F00941DBC /* Frameworks */,
+				B6D248F025083F7F00941DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D248F425083F7F00941DBC /* PBXTargetDependency */,
+			);
+			name = PokelatorTests;
+			productName = PokelatorTests;
+			productReference = B6D248F225083F7F00941DBC /* PokelatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6D248FC25083F7F00941DBC /* PokelatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D2490C25083F7F00941DBC /* Build configuration list for PBXNativeTarget "PokelatorUITests" */;
+			buildPhases = (
+				B6D248F925083F7F00941DBC /* Sources */,
+				B6D248FA25083F7F00941DBC /* Frameworks */,
+				B6D248FB25083F7F00941DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D248FF25083F7F00941DBC /* PBXTargetDependency */,
+			);
+			name = PokelatorUITests;
+			productName = PokelatorUITests;
+			productReference = B6D248FD25083F7F00941DBC /* PokelatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D248D525083F7D00941DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Frederick Clausen II";
+				TargetAttributes = {
+					B6D248DC25083F7D00941DBC = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					B6D248F125083F7F00941DBC = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = B6D248DC25083F7D00941DBC;
+					};
+					B6D248FC25083F7F00941DBC = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = B6D248DC25083F7D00941DBC;
+					};
+				};
+			};
+			buildConfigurationList = B6D248D825083F7D00941DBC /* Build configuration list for PBXProject "Pokelator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D248D425083F7D00941DBC;
+			productRefGroup = B6D248DE25083F7D00941DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D248DC25083F7D00941DBC /* Pokelator */,
+				B6D248F125083F7F00941DBC /* PokelatorTests */,
+				B6D248FC25083F7F00941DBC /* PokelatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D248DB25083F7D00941DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */,
+				B6D248E825083F7F00941DBC /* Preview Assets.xcassets in Resources */,
+				B6D248E525083F7F00941DBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248F025083F7F00941DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248FB25083F7F00941DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D248D925083F7D00941DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D248E325083F7D00941DBC /* ContentView.swift in Sources */,
+				B6D248E125083F7D00941DBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248EE25083F7F00941DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D248F725083F7F00941DBC /* PokelatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D248F925083F7F00941DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D2490225083F7F00941DBC /* PokelatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D248F425083F7F00941DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D248DC25083F7D00941DBC /* Pokelator */;
+			targetProxy = B6D248F325083F7F00941DBC /* PBXContainerItemProxy */;
+		};
+		B6D248FF25083F7F00941DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D248DC25083F7D00941DBC /* Pokelator */;
+			targetProxy = B6D248FE25083F7F00941DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6D248E925083F7F00941DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D248EA25083F7F00941DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D2490425083F7F00941DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6D2490525083F7F00941DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6D2490725083F7F00941DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pokelator/Pokelator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokelator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pokelator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.Pokelator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6D2490825083F7F00941DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pokelator/Pokelator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokelator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pokelator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.Pokelator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6D2490A25083F7F00941DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokelatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.PokelatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokelator.app/Contents/MacOS/Pokelator";
+			};
+			name = Debug;
+		};
+		B6D2490B25083F7F00941DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokelatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.PokelatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokelator.app/Contents/MacOS/Pokelator";
+			};
+			name = Release;
+		};
+		B6D2490D25083F7F00941DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokelatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.PokelatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Pokelator;
+			};
+			name = Debug;
+		};
+		B6D2490E25083F7F00941DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokelatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredclausen.PokelatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Pokelator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D248D825083F7D00941DBC /* Build configuration list for PBXProject "Pokelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D2490425083F7F00941DBC /* Debug */,
+				B6D2490525083F7F00941DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D2490625083F7F00941DBC /* Build configuration list for PBXNativeTarget "Pokelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D2490725083F7F00941DBC /* Debug */,
+				B6D2490825083F7F00941DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D2490925083F7F00941DBC /* Build configuration list for PBXNativeTarget "PokelatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D2490A25083F7F00941DBC /* Debug */,
+				B6D2490B25083F7F00941DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D2490C25083F7F00941DBC /* Build configuration list for PBXNativeTarget "PokelatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D2490D25083F7F00941DBC /* Debug */,
+				B6D2490E25083F7F00941DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D248D525083F7D00941DBC /* Project object */;
+}
