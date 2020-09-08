@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D248E925083F7F00941DBC /* Main.storyboard */; };
 		B6D248F725083F7F00941DBC /* PokelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D248F625083F7F00941DBC /* PokelatorTests.swift */; };
 		B6D2490225083F7F00941DBC /* PokelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D2490125083F7F00941DBC /* PokelatorUITests.swift */; };
+		B6D2491025084C2300941DBC /* data in Resources */ = {isa = PBXBuildFile; fileRef = B6D2490F25084C2300941DBC /* data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B6D248FD25083F7F00941DBC /* PokelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D2490125083F7F00941DBC /* PokelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorUITests.swift; sourceTree = "<group>"; };
 		B6D2490325083F7F00941DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D2490F25084C2300941DBC /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		B6D248D425083F7D00941DBC = {
 			isa = PBXGroup;
 			children = (
+				B6D2490F25084C2300941DBC /* data */,
 				B6D248DF25083F7D00941DBC /* Pokelator */,
 				B6D248F525083F7F00941DBC /* PokelatorTests */,
 				B6D2490025083F7F00941DBC /* PokelatorUITests */,
@@ -215,7 +218,7 @@
 				};
 			};
 			buildConfigurationList = B6D248D825083F7D00941DBC /* Build configuration list for PBXProject "Pokelator" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -241,6 +244,7 @@
 			files = (
 				B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */,
 				B6D248E825083F7F00941DBC /* Preview Assets.xcassets in Resources */,
+				B6D2491025084C2300941DBC /* data in Resources */,
 				B6D248E525083F7F00941DBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
