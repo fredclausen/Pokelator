@@ -16,6 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Load data structures
+        readFiles()
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 
@@ -33,7 +35,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
 
+
+struct AppDelegate_Previews: PreviewProvider {
+    static var previews: some View {        
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
