@@ -14,7 +14,8 @@
 		B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D248E925083F7F00941DBC /* Main.storyboard */; };
 		B6D248F725083F7F00941DBC /* PokelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D248F625083F7F00941DBC /* PokelatorTests.swift */; };
 		B6D2490225083F7F00941DBC /* PokelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D2490125083F7F00941DBC /* PokelatorUITests.swift */; };
-		B6D2491025084C2300941DBC /* data in Resources */ = {isa = PBXBuildFile; fileRef = B6D2490F25084C2300941DBC /* data */; };
+		B6D2491625085E7900941DBC /* ReadFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D2491525085BD100941DBC /* ReadFiles.swift */; };
+		B6D2491B25086B8300941DBC /* pokedex.ts in Resources */ = {isa = PBXBuildFile; fileRef = B6D2491A25086B8300941DBC /* pokedex.ts */; settings = {ASSET_TAGS = (New, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,9 @@
 		B6D248FD25083F7F00941DBC /* PokelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D2490125083F7F00941DBC /* PokelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorUITests.swift; sourceTree = "<group>"; };
 		B6D2490325083F7F00941DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D2490F25084C2300941DBC /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		B6D2491525085BD100941DBC /* ReadFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFiles.swift; sourceTree = "<group>"; };
+		B6D2491725085FDA00941DBC /* abilities.ts */ = {isa = PBXFileReference; lastKnownFileType = text; path = abilities.ts; sourceTree = "<group>"; };
+		B6D2491A25086B8300941DBC /* pokedex.ts */ = {isa = PBXFileReference; explicitFileType = sourcecode.javascript; fileEncoding = 4; path = pokedex.ts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +83,7 @@
 		B6D248D425083F7D00941DBC = {
 			isa = PBXGroup;
 			children = (
-				B6D2490F25084C2300941DBC /* data */,
+				B6D2491825086B3E00941DBC /* Sources */,
 				B6D248DF25083F7D00941DBC /* Pokelator */,
 				B6D248F525083F7F00941DBC /* PokelatorTests */,
 				B6D2490025083F7F00941DBC /* PokelatorUITests */,
@@ -103,6 +106,7 @@
 			children = (
 				B6D248E025083F7D00941DBC /* AppDelegate.swift */,
 				B6D248E225083F7D00941DBC /* ContentView.swift */,
+				B6D2491725085FDA00941DBC /* abilities.ts */,
 				B6D248E425083F7F00941DBC /* Assets.xcassets */,
 				B6D248E925083F7F00941DBC /* Main.storyboard */,
 				B6D248EC25083F7F00941DBC /* Info.plist */,
@@ -136,6 +140,31 @@
 				B6D2490325083F7F00941DBC /* Info.plist */,
 			);
 			path = PokelatorUITests;
+			sourceTree = "<group>";
+		};
+		B6D2491425085BD100941DBC /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				B6D2491525085BD100941DBC /* ReadFiles.swift */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		B6D2491825086B3E00941DBC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6D2491925086B6200941DBC /* Resources */,
+				B6D2491425085BD100941DBC /* BackEnd */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B6D2491925086B6200941DBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6D2491A25086B8300941DBC /* pokedex.ts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +229,9 @@
 		B6D248D525083F7D00941DBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Frederick Clausen II";
@@ -244,8 +276,8 @@
 			files = (
 				B6D248EB25083F7F00941DBC /* Main.storyboard in Resources */,
 				B6D248E825083F7F00941DBC /* Preview Assets.xcassets in Resources */,
-				B6D2491025084C2300941DBC /* data in Resources */,
 				B6D248E525083F7F00941DBC /* Assets.xcassets in Resources */,
+				B6D2491B25086B8300941DBC /* pokedex.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D2491625085E7900941DBC /* ReadFiles.swift in Sources */,
 				B6D248E325083F7D00941DBC /* ContentView.swift in Sources */,
 				B6D248E125083F7D00941DBC /* AppDelegate.swift in Sources */,
 			);
