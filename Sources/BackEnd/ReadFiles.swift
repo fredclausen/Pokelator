@@ -9,13 +9,15 @@
 import Foundation
 
 func readFiles() {
-
     if let fileURL = Bundle.main.url(forResource: "pokedex", withExtension: "ts") {
         // we found the file in our bundle!
         print("File Loading...")
         do {
-            let text = try String (contentsOf: fileURL)
-            print(text)
+            let file = try String (contentsOf: fileURL)
+            
+            let text: [String] = file.components(separatedBy: "\n")
+            var Pokemon = PokeSplitter(Dex: text)
+            
         } catch {
             print(error)
         }
